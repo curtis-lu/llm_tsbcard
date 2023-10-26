@@ -1,0 +1,15 @@
+
+
+Given the following question and the key parts of the question,
+extract the information from the following context,
+and combine the extracted information into a new context.
+
+Remember, *USE* the key parts to extract the information.
+Remember, *DO NOT* edit the extracted information.
+Remember, *KEEP* the new context relevant to answer the question.
+
+Question: {customer_question}
+key parts of the question: {anatomy}
+Context: {context}
+
+new context:
