@@ -1,0 +1,5 @@
+
+langchain==0.0.312
+markdown==3.5
+chromadb==0.4.14
+tiktoken==0.5.1
