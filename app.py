@@ -16,7 +16,7 @@ openai_api_key = st.sidebar.text_input('OpenAI API Key')
 def load_vector_store():
 
     persist_directory = 'docs/chroma/'
-    embedding = OpenAIEmbeddings()
+    embedding = OpenAIEmbeddings(openai_api_key=openai_api_key)
 
     return Chroma(persist_directory=persist_directory, embedding_function=embedding)
 
